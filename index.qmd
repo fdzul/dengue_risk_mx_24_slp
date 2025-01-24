@@ -32,8 +32,8 @@ body {
 .wrapper {
     display: grid;
     grid-gap: 2px;
-    grid-template-columns: 230px 230px 230px 550px;
-    grid-template-rows: 165px 165px 165px 165px;
+    grid-template-columns: 225px 225px 225px 410px;
+    grid-template-rows: 95px 95px 95px 130px;
     background-color: #772953;
     color: "#772953";
   }
@@ -234,7 +234,7 @@ flexdashboard::gauge(round((sum(y_hot$n_cases)/sum(y$n_cases))*100, digits = 1),
 
 ::: wrapper
 ::: {.box .a}
-```{r hotspots_dengue_tamazunchalle}
+```{r hotspots_dengue_tamazunchale}
 # Step 1. extract the locality ####
 loc <- rgeomex::extract_locality(cve_edo = "24", 
                                  locality = "Tamazunchale")
